@@ -1,6 +1,7 @@
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
-c = min(a, b)
+def minimum(a, b):
+    return min(a, b)
 
-print("The minimum of the two numbers is", c)
+print("The minimum of the two numbers is", minimum(a,b))
